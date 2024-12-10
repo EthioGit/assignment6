@@ -23,5 +23,5 @@ jobs:
       - name: Build and push container
         run: |
           docker build -t my-container .
-          docker tag my-container <your-dockerhub-username>/assignment6:prod
-          docker push <your-dockerhub-username>/assignment6:prod
+          docker tag my-container ethiodocker/assignment6:prod
+          docker push ethiodocker/assignment6:prod
